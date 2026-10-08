@@ -46,13 +46,13 @@ h1 {
 }
 
 .cover {
-  height: 120px;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
   border-radius: 10px;
+  object-fit: cover;
 }
-
-.c1 { background: linear-gradient(135deg, #f6d365, #fda085); }
-.c2 { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
-.c3 { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
 
 .card h2 {
   margin: 12px 0 2px;
