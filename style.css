@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background: #fbfaf7;
+  color: #222;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.7;
+}
+
+header {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 64px 24px 24px;
+}
+
+.club {
+  margin: 0;
+  color: #d9534f;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+h1 {
+  margin: 4px 0 8px;
+  font-size: 40px;
+}
+
+.note {
+  margin: 0;
+  color: #777;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+}
+
+.cover {
+  height: 120px;
+  border-radius: 10px;
+}
+
+.c1 { background: linear-gradient(135deg, #f6d365, #fda085); }
+.c2 { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+.c3 { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
+
+.card h2 {
+  margin: 12px 0 2px;
+  font-size: 18px;
+}
+
+.who {
+  margin: 0 0 6px;
+  color: #d9534f;
+  font-size: 13px;
+}
+
+.card p:last-child {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+footer {
+  padding: 32px 24px 48px;
+  color: #999;
+  font-size: 13px;
+  text-align: center;
+}
